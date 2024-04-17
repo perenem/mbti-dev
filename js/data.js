@@ -1,4 +1,13 @@
 export const questions = [
+  /*const 는 자바의 final 과 같음*/
+  /* questions 배열                                                                             Member member = new Member()
+  questions[0] =                                                                                member.name
+  number: '01',                                                                                 questions[0].number -> 01       .number는 questions 아래에 있는 번호를 선택
+    question: '곧 크리스마스                                                                     
+    choices: [
+      { text: '파티 , value: 'i' },                                                            = questions[0].choice[0].value   -> i 가 나온다
+      { text: '재밌겠다!, value: 'e' }                                                         = questions[0].choice[1].value   -> e 가 나온다
+    ] */
   {
     number: '01',
     question: '곧 크리스마스! 회사에서 크리스마스 파티 스텝을 모집한다는데?',
